@@ -97,6 +97,8 @@ Toolbar toolbar;
                     @Override
                     public void onClick(DialogInterface arg0, int arg1) {
 
+
+                        System.err.println("test");
                     }
                 });
 
