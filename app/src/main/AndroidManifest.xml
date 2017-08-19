@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.handa.fjunction2">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logoa"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Singup" />
+        <activity android:name=".Home" />
+        <activity android:name=".Upload" />
+        <activity android:name=".Uploadphoto" />
+        <activity android:name=".Uploadvideo" />
+        <activity android:name=".Uploadview" />
+        <activity android:name=".Search" />
+        <activity android:name=".Tabselect"
+            android:label=".@string/title_activity_tabselect"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Editsetting" />
+        <activity
+            android:name=".Tabupload"
+            android:label="@string/title_activity_tabupload"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
